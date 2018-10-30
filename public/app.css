@@ -23,6 +23,7 @@ h4 {
 }
 ul {
   min-width: 224px;
+  max-width: 224px;
   margin: 0;
   list-style: none;
   background: #3f51b5;
