@@ -2,8 +2,10 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   <link href="/app.css" rel="stylesheet">
 </head>
-<body>
+<body data-database="<%= database %>">
   <ul>
+    <li><h4 id="my-saved-queries-heading">My Saved Queries</h4></li>
+    <li><h4 id="tables-heading">Tables</h4></li>
     <% tables.each do |table| %>
       <li><a href="/search?q=SELECT+*+FROM+<%= table %>+LIMIT+10"><%= table %></a></li>
     <% end %>
