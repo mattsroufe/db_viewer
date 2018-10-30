@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 48px;
+}
+form {
+  margin-bottom: 4px;
+}
+th, td {
+  text-align: left;
+  border-top: 1px solid #9e9e9e7a;
+  padding: 8px;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  background: #3f51b5;
+  color: white;
+  padding: 16px;
+}
+li {
+  padding-bottom: 4px;
+}
+li:first-child {
+  padding-top: 32px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+  padding-right: 32px;
+}
+textarea {
+  border-color: #9e9e9e7a;
+  padding: 24px;
+  width: 740px;
+  font-family: inherit;
+  font-size: 14px;
+}
+textarea:focus {
+  outline: none;
+}
+#main {
+  padding: 48px;
+}
